@@ -1,0 +1,9 @@
+[package]
+name = "DebateArena"
+version = "0.0.1"
+
+[dependencies]
+EndlessFramework = { git = "https://github.com/endless-labs/endless-core.git", subdir = "framework/endless-framework", rev = "main" }
+
+[addresses]
+DebateArena = "_"
